@@ -5,12 +5,10 @@ function MainTab() {
     <div class="grid">
       <div class="card">
         
-        <div class="text">
-          
-      </div>
+       <img src="./header-1.jpeg" alt="img"></img>
       </div>
       
-      <div class="card">
+      <div class="card">        
         <div class="text">
           <div class="title-bar">Raizen Sangalang</div>
           <p>Computer Science student who loves experimenting things and building some solution for the modern problem</p>
