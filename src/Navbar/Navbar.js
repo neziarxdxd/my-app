@@ -1,12 +1,12 @@
 import React from 'react';
-
+import {Link} from 'react-router-dom';
 function NavBar() {
     return(
      
             <nav class="navbar">
       <ul class="navbar-nav">
         <li class="logo">
-          <a href="facebook.com" class="nav-link">
+          <Link to={"/"} class="nav-link">
             <span class="link-text logo-text">Raizen</span>
             <svg
               aria-hidden="true"
@@ -31,11 +31,11 @@ function NavBar() {
                 ></path>
               </g>
             </svg>
-          </a>
+          </Link>
         </li>
   
         <li class="nav-item">
-          <a href="facebook.com" class="nav-link">
+          <Link to={"/project"} class="nav-link">
             <svg
               aria-hidden="true"
               focusable="false"
@@ -59,12 +59,12 @@ function NavBar() {
                 ></path>
               </g>
             </svg>
-            <span class="link-text">Cats</span>
-          </a>
+            <span class="link-text">Project</span>
+          </Link>
         </li>
   
         <li class="nav-item">
-          <a href="facebook.com" class="nav-link">
+          <Link to={"/main"} class="nav-link">
             <svg
               aria-hidden="true"
               focusable="false"
@@ -88,8 +88,8 @@ function NavBar() {
                 ></path>
               </g>
             </svg>
-            <span class="link-text">Aliens</span>
-          </a>
+            <span class="link-text">Main</span>
+          </Link>
         </li>
   
         <li class="nav-item">
