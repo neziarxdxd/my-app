@@ -3,7 +3,7 @@ import Image from './header-1.jpeg';
 
 function MainTab() {
   const frameworks = [
-    "ReactJS", "VueJS","Flutter","Android Native","Express","Django","ASP.NET"
+    "ReactJS", "VueJS","Flutter","Android Native","Express","Django","ASP.NET","CodeIgniter"
   ];
 const listFramework = frameworks.map((listItems) =>  <li>{listItems}</li>);
 
@@ -11,6 +11,16 @@ const toolsApplication = [
   "Microsoft Office","Visual Studio code","NodeJS","Adobe XD","Github"
 ];
 const listToolsApplication = toolsApplication.map((listItems) =>  <li>{listItems}</li>);
+
+const programmingLanguage = [
+  "Java","Python","C#","C++","Dart","JavaScript","PHP","Julia"
+];
+const listProgrammingLanguage = programmingLanguage.map((listItems) =>  <li>{listItems}</li>);
+
+const dataBase = [
+  "MySQL","SQLite","Microsoft Access","JSON","Firebase"
+];
+const listDatabase = dataBase.map((listItems) =>  <li>{listItems}</li>);
   return(
     <main>
     <div class="grid">
@@ -79,7 +89,7 @@ const listToolsApplication = toolsApplication.map((listItems) =>  <li>{listItems
         
       <div class="card">        
         <div class="text">
-          <div class="title-bar">SKILLS AND TECHNOLOGY</div>
+          <div class="title-bar">TECH USED</div>
           <p>Computer Science student who loves experimenting things and building some solution for the modern problem</p>
           
           
@@ -111,12 +121,7 @@ const listToolsApplication = toolsApplication.map((listItems) =>  <li>{listItems
         <div class="text">
           <div class="card-head">PROGRAMMING LANGUAGE</div>
           <ul style={{paddingLeft:"15px"}}>
-            <li>Microsoft Office 365</li>
-            <li>Microsoft Office 365</li>
-            <li>Microsoft Office 365</li>
-            <li>Microsoft Office 365</li>
-            <li>Microsoft Office 365</li>
-            <li>Microsoft Office 365</li>
+            {listProgrammingLanguage}
           </ul>
          </div>
     </div>
@@ -125,7 +130,7 @@ const listToolsApplication = toolsApplication.map((listItems) =>  <li>{listItems
         <div class="text">
           <div class="card-head">DATABASE</div>
           <ul style={{paddingLeft:"15px"}}>
-            
+            {listDatabase}
           </ul>
          </div>
     </div>

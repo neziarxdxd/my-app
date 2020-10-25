@@ -149,8 +149,7 @@ function NavBar() {
             <span class="link-text">Shuttle</span>
           </a>
         </li>
-  
-        
+ 
       </ul>
     </nav>
       
