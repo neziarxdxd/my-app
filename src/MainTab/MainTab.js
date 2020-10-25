@@ -1,6 +1,16 @@
 import React from 'react';
 import Image from './header-1.jpeg';
+
 function MainTab() {
+  const frameworks = [
+    "ReactJS", "VueJS","Flutter","Android Native","Express","Django","ASP.NET"
+  ];
+const listFramework = frameworks.map((listItems) =>  <li>{listItems}</li>);
+
+const toolsApplication = [
+  "Microsoft Office","Visual Studio code","NodeJS","Adobe XD","Github"
+];
+const listToolsApplication = toolsApplication.map((listItems) =>  <li>{listItems}</li>);
   return(
     <main>
     <div class="grid">
@@ -82,6 +92,53 @@ function MainTab() {
         
         <img src={Image} alt='fd' />
        </div> 
+
+    </div>
+
+    <div className="grid-2">
+      
+    <div class="card">
+        <div class="text">
+          <div class="card-head">FRAMEWORK</div>
+          <ul style={{paddingLeft:"15px"}}>
+          {listFramework}
+
+          </ul>
+         </div>
+    </div>
+
+    <div class="card">
+        <div class="text">
+          <div class="card-head">PROGRAMMING LANGUAGE</div>
+          <ul style={{paddingLeft:"15px"}}>
+            <li>Microsoft Office 365</li>
+            <li>Microsoft Office 365</li>
+            <li>Microsoft Office 365</li>
+            <li>Microsoft Office 365</li>
+            <li>Microsoft Office 365</li>
+            <li>Microsoft Office 365</li>
+          </ul>
+         </div>
+    </div>
+
+    <div class="card">
+        <div class="text">
+          <div class="card-head">DATABASE</div>
+          <ul style={{paddingLeft:"15px"}}>
+            
+          </ul>
+         </div>
+    </div>
+
+    <div class="card">
+        <div class="text">
+          <div class="card-head">SOFTWARE AND TOOLS</div>
+          <ul style={{paddingLeft:"15px"}}>
+            {listToolsApplication}
+          </ul>
+         </div>
+    </div>
+
 
     </div>
     
