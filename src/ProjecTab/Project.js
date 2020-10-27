@@ -4,13 +4,22 @@ function Project() {
     return(
     <main>
         <div className="grid">
-        <div className="card">
-        <h1>ANG CUTE MO SHIN!!!</h1>
-        <h1>GALINGAN MO PO!!! </h1>
-        </div>
+        
+        
         </div>
     </main>
     );
 }
+
+function Cards(params) {
+
+    <div className="card-3">
+        
+        <div className="card-3-title">Title</div>
+
+
+    </div>
+}
+
 
 export default Project;
