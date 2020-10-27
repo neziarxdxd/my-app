@@ -5,7 +5,8 @@ function Project() {
     <main>
         <div className="grid">
         <div className="card">
-        <h1>Heljdfjfdfjdjfjdjfdjfjdjfjdjflo</h1>
+        <h1>ANG CUTE MO SHIN!!!</h1>
+        <h1>GALINGAN MO PO!!! </h1>
         </div>
         </div>
     </main>
@@ -13,4 +14,3 @@ function Project() {
 }
 
 export default Project;
-// wala lang
