@@ -107,10 +107,7 @@
     fill:#fff;
 
   }
-  .social-icon svg:hover{
-    fill: #0697f8;
-
-  }
+ 
   
   
   .fa-primary {
@@ -120,11 +117,9 @@
   .fa-secondary {
     color: #0697f8;
   }
+
+
   
-  .fa-primary,
-  .fa-secondary {
-    transition: var(--transition-speed);
-  }
 
   
   
@@ -186,7 +181,7 @@
   }
   .card-head{
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .grid-2{
