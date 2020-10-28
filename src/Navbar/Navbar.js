@@ -55,10 +55,7 @@ function NavBar() {
             <span class="link-text">Project</span>
           </Link>
         </li>
-        
-  
-     
-  
+
         <li class="nav-item">
           <a href="facebook.com" class="nav-link">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
