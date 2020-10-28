@@ -1,6 +1,6 @@
 
 import './App.css';
-import './Navbar/Navbar.js';
+import React from 'react';
 import MainTab from './MainTab/MainTab.js';
 import NavBar from './Navbar/Navbar.js';
 import Project from './ProjecTab/Project.js';
