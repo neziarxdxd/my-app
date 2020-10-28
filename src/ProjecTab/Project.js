@@ -11,14 +11,15 @@ function Project() {
     );
 }
 
-function Cards(params) {
+function Cards(title, content) {
 
-    <div className="card-3">
-        
-        <div className="card-3-title">Title</div>
-
-
-    </div>
+    <div class="card">
+    <div class="text">
+<div class="card-head">{title}</div>
+<p>{content}</p>
+     
+  </div>
+  </div>
 }
 
 
