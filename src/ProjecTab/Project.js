@@ -9,7 +9,7 @@ function Project() {
         <div className="grid-3">
         
         <Cards title="Event Registration" content="This application helps the event organizer to make their registration for event easier and more secured" />
-        <Cards title="fdfdf" content="fdfdfdf"/>
+        <Cards title="fdfdf" content="fdfdfdf" />
         <Cards title="fdfdf" content="fdfdfdf"/>
         <Cards title="fdfdf" content="fdfdfdf"/>
         </div>
@@ -20,7 +20,7 @@ function Project() {
 function Cards({title, content}) {
     return(
     <div class="card-3">
-    <img src={'image/head-1.jpeg'} alt="imagge"/>
+    <img src={require('./my-image/PROGRAMMING_01.PNG')} alt="imafdfdfgge"/>
     <div class="text-content">
 <div class="card-head">{title}</div>
 <p>{content}</p>
