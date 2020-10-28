@@ -20,7 +20,7 @@ function Project() {
 function Cards({title, content}) {
     return(
     <div class="card-3">
-    <img alt="LORD" src={require('./my-image/PROGRAMMING_01.PNG')} />
+    <img alt="LORD" src={require('./my-image/PROGRAMMING_01.PNG').default} />
     <div class="text-content">
 <div class="card-head">{title}</div>
 <p>{content}</p>
