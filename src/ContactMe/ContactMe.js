@@ -2,33 +2,40 @@ import React from 'react';
 function ContactMe() {
     return(
         <main>  
-            <div className="card">          
+           <div className="contact-menu">                    
             <div className="title-bar">
-                Contact Me
+                Let's talk 
             </div>
 
-            <div className="contact-card">
-                <div className="s-form">
-                    First Name
+            <div className="contact-form">
+                <div className="label-card">
+                    <div className="label-name">First Name</div> 
+                    <div className="input-name"><input className="input-label-s" type="text"/></div>
                 </div>
-                <div className="s-form">
-                    <input type="text"/>
+                <div className="label-card">
+                    <div className="label-name">Last Name</div> 
+                    <div className="input-name"><input className="input-label-s" type="text"/></div>
                 </div>
-                <div className="s-form">
-                    :ast Name
+                <div className="label-card">
+                    <div className="label-name">Email Address</div> 
+                    <div className="input-name"><input className="input-label-s" type="text"/></div>
                 </div>
-                <div className="s-form">
-                    <input type="text"/>
+                <div className="label-card">
+                    <div className="label-name">Subject: </div> 
+                    <div className="input-name"><input className="input-label-s" type="text"/></div>
                 </div>
-                <div className="s-form">
-                    First Name
+                <div className="label-card">
+                    <div className="label-name">Message</div> 
+                    <div className="input-name"><input className="input-label-s" type="text"/></div>
                 </div>
-                <div className="s-form">
-                    <input type="text"/>
+                <div className="label-card">
+                    
+                    <div className="input-name">
+                        <button>Send </button>
+                    </div>
                 </div>
-
             </div>
-            </div>
+           </div>
         </main>
 
     );
