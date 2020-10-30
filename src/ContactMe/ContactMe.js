@@ -28,10 +28,10 @@ function ContactMe() {
                     <div className="label-name">Message</div> 
                     <div className="input-name"><input className="input-label-s" type="text"/></div>
                 </div>
-                <div className="label-card">
+                <div className="label-card-button">
                     
                     <div className="input-name">
-                        <button>Send </button>
+                        <button class="btn">Send </button>
                     </div>
                 </div>
             </div>
