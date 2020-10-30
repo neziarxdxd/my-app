@@ -31,7 +31,7 @@ const listDatabase = dataBase.map((listItems) =>  <li>{listItems}</li>);
       
       <div class="card">        
         <div class="text">
-          <div class="title-bar">Raizen Sangalang</div>
+          <div class="title-bar">Basta Title 'to</div>
           <p>Wanna contribute something for  you</p>
           <div class="social-media-group">
           <a href="/raizen" className="social-icon">
