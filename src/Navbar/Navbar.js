@@ -69,7 +69,7 @@ function NavBar() {
         </li>
   
         <li class="nav-item">
-          <a href="facebook.com" class="nav-link">
+          <Link to={'/contact'} href="facebook.com" class="nav-link">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
             <path 
             fill="currentColor"
@@ -78,7 +78,7 @@ function NavBar() {
           
           </svg>
             <span class="link-text">Contact Me</span>
-          </a>
+          </Link>
         </li>
       
  
