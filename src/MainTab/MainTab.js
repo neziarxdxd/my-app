@@ -52,8 +52,8 @@ const listDatabase = dataBase.map((listItems) =>  <li>{listItems}</li>);
       </div>
 
     </div>
-
-    <div class="grid-2">
+   
+    <div class="grid-2" >
       <div class="card">
         <div class="text">
           <div class="card-head">MOBILE APP</div>
