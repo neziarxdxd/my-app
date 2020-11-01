@@ -13,15 +13,15 @@ function About() {
                 <div className="about-section-title">Education</div>
                 <div className="about-content-grid">
                     <div className="education-card">
-                        <div className="school-year">2018-Present</div>
+                        <div className="school-year"> 🗓 2018-Present</div>
                         <div className="name-school">City College of Angeles</div>
-                        <div className="field-study">BS in Computer Science</div>
+                        <div className="field-study"> 🖥 BS in Computer Science</div>
                     </div>
 
                     <div className="education-card">
-                        <div className="school-year">2016-2018</div>
+                        <div className="school-year">🗓 2016-2018</div>
                         <div className="name-school">STI College Angeles</div>
-                        <div className="field-study">ICT major in Programming</div>
+                        <div className="field-study"> 🖥 ICT major in Programming</div>
                     </div>
 
                
