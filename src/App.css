@@ -202,20 +202,36 @@ box-sizing: border-box;
   width: 100%;
 }
 
-.about-grid > .about-card{
-  background-color:#1e1e24;
-  height: 100%;
-  background-color: rgb(49, 46, 46);
-  border-radius: 10px;
-  font-size: 1rem;
-  padding: 30px;
-}
+
 .about-grid {
-  margin: 2rem;
+  margin: 1rem;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-gap: 100px;
   align-items: center;
+}
+.about-section-title{
+  font-weight: 900;
+  font-size: 3rem;
+}
+.about-content-grid{
+  
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 1em;
+  grid-row-gap: 1.5em;
+  align-items: center;
+}
+.about-content-grid > .education-card{
+  
+  background-color: rgb(49, 46, 46);
+  border-radius: 10px;
+  font-size: 1rem;
+  padding: 20px; 
+}
+.name-school{
+  font-weight:700 ;
+  font-size: 1.6rem;
 }
 
 
