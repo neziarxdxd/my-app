@@ -10,8 +10,9 @@ import About from './About/About';
 function App() {
   return (
     <Router>
+        <NavBar/>
     <div className="App">
-      <NavBar/>
+    
      <Switch>
        <Route path="/main" component={MainTab}/>
        <Route path="/project" component={Project}/>

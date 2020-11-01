@@ -22,14 +22,12 @@ function About() {
                         <div className="school-year">🗓 2016-2018</div>
                         <div className="name-school">STI College Angeles</div>
                         <div className="field-study"> 🖥 ICT major in Programming</div>
-                    </div>
-
-               
+                    </div>             
 
                 </div>
+
             </div>
-
-
+            
             <div className="about-card EDUCATION">
                 <div className="about-section-title">Work Experience</div>
                 <div className="about-content-grid">
