@@ -213,9 +213,11 @@ box-sizing: border-box;
 .about-section-title{
   font-weight: 900;
   font-size: 3rem;
+
+  
 }
 .about-content-grid{
-  
+  margin-top: 30px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 1em;
@@ -223,8 +225,8 @@ box-sizing: border-box;
   align-items: center;
 }
 .about-content-grid > .education-card{
-  
-  background-color: rgb(49, 46, 46);
+  height: 100%;
+  background-color:#1e1e24;
   border-radius: 10px;
   font-size: 1rem;
   padding: 20px; 
