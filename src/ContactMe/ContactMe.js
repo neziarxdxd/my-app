@@ -26,7 +26,7 @@ function ContactMe() {
                 </div>
                 <div className="label-card">
                     <div className="label-name">Message</div> 
-                    <div className="input-name"><input className="input-label-s" type="text"/></div>
+                    <div className="input-name"><textarea className="input-label-s" type="text"/></div>
                 </div>
                 <div className="label-card-button">
                     

@@ -10,6 +10,7 @@
 
 html,
 body {
+  
   height: 100%;
   margin: 0;
 }
@@ -177,14 +178,16 @@ main {
   align-items: center;
 }
 .input-label-s{
+  border-style: hidden;
   background-color:#1e1e24;
   width: 100%;
-padding: 12px 20px;
-margin: 8px 0;
-display: inline-block;
-color: #fff;
-border-radius: 4px;
-box-sizing: border-box;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  color: #fff;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: Poppins;
 }
 .contact-menu{
   padding-top: 5%;
@@ -420,7 +423,9 @@ border-radius: 4px;
     margin-bottom: 100px;
   }
   .footer{
-    margin-bottom: 70px;
+    margin-bottom: 60px;
+    height:60px;
+    margin-left: 0;
   }
 }
 
