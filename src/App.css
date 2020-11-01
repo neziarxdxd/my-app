@@ -45,6 +45,8 @@ main {
 .footer {
   background-color: #0697f8;
   text-align: center;
+  height: 50px;
+  margin-top: -50px;
 
 }
 
