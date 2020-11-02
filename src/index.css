@@ -14,5 +14,9 @@ code {
   margin-left:5rem;
   background-color:#2c2929;
   height:50px;
-
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 1rem;  
 }
+
