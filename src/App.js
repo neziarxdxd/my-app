@@ -4,6 +4,7 @@ import React from 'react';
 import MainTab from './MainTab/MainTab.js';
 import NavBar from './Navbar/Navbar.js';
 import Project from './ProjecTab/Project.js';
+import PageProject from './ProjecTab/PageProject.js';
 import ContactMe from './ContactMe/ContactMe.js';
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
 import About from './About/About';
@@ -19,6 +20,7 @@ function App() {
        <Route path="/project" component={Project}/>
        <Route path="/contact" component={ContactMe}/>
        <Route path="/about" component={About}/>
+       <Route path="/page" component={PageProject}/>
        
       </Switch>
       <Footer/>
