@@ -19,7 +19,7 @@ class Terms extends Component {
     }
   
     componentWillMount() {
-      fetch(`https://raw.githubusercontent.com/zenraiching/TollGateJava/master/README.md`).then((response) => response.text()).then((text) => {
+      fetch(`https://raw.githubusercontent.com/zenraiching/TollGateJava/master/README.md`).then((response) => response.json()).then((text) => {
         this.setState({ terms: text })
       })
     }
