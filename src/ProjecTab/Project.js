@@ -1,13 +1,23 @@
-import React from 'react';
+import src from '*.avif';
+import React, {useState,useEffect} from 'react';
 
 function Project() {
+    useEffect(()=>{
+        fetchItems();
+    },[]);
+
+    const [items,setItems]=useState([]);
+
+    const fetchItems=async ()=>{
+        const data = await fetch('./listOfProjects.json').
+    }
+
+
     return(
         <main>
             <div className="grid-3">
                 <Cards title="Event Registration" content="This application helps the event organizer to make their registration for event easier and more secured" />
-                <Cards title="fdfdf" content="fdfdfdf" />
-                <Cards title="fdfdf" content="fdfdfdf"/>
-                <Cards title="fdfdf" content="fdfdfdf"/>
+               
             </div>
         </main>
     );
