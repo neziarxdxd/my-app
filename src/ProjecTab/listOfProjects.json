@@ -1,5 +1,5 @@
-{
-    "project":[
+
+   [
     {"project_name":"Programmer Ako", "description":"This project is created via JSON API", "date":"January 12, 2020"},
     {"project_name":"Testing 01", "description":"This project is created via JSON API", "date":"January 12, 2020"},
     {"project_name":"Testing 02", "description":"This project is created via JSON API", "date":"January 12, 2020"},
@@ -7,4 +7,3 @@
     {"project_name":"Testing 04", "description":"This project is created via JSON API", "date":"January 12, 2020"}      
     ]
 
-}
