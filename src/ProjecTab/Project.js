@@ -1,19 +1,8 @@
-
-import React, {useState,useEffect} from 'react';
+import listOfProjects from './listOfProjects.json';
+import React from 'react';
 
 function Project() {
-    useEffect(()=>{
-        fetchItems();
-    },[]);
-
-    const [items,setItems]=useState([]);
-
-    const fetchItems=async ()=>{
-        const data = await fetch(`https://fortnite-api.theapinetwork.com/store/get`);
-
-        const items = await data.json();
-        console.log(items);
-    }
+   
 
 
     return(
