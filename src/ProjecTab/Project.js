@@ -23,7 +23,7 @@ function Cards({title, content,image}) {
     return(
         <div class="card-3">
 
-            <img alt="LORD" src={require(image).default}/>
+            <img alt="LORD" src={image}/>
 
             <div class="text-content">
 
