@@ -4,7 +4,7 @@ import React from 'react';
 function Project() {
 
     const cards= listOfProjects.map((data)=>
-        <Cards title={data.project_name} content={data.description} />
+        <Cards title={data.project_name} content={data.description} image={data.image}/>
     );
    
 
@@ -23,7 +23,7 @@ function Cards({title, content,image}) {
     return(
         <div class="card-3">
 
-            <img alt="LORD" src={image} />
+            <img alt="LORD" src={require(image).default}/>
 
             <div class="text-content">
 
