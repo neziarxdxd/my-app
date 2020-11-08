@@ -2,14 +2,19 @@ import listOfProjects from './listOfProjects.json';
 import React from 'react';
 
 function Project() {
+
+    const cards= listOfProjects.map((data)=>
+        <Cards title={data.project_name} content={data.description} />
+    );
    
 
 
     return(
         <main>
+         
             <div className="grid-3">
-                <Cards title="Event Registration" content="This application helps the event organizer to make their registration for event easier and more secured" />
-               
+              
+               {cards}
             </div>
         </main>
     );
