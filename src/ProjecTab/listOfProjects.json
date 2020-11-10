@@ -3,13 +3,13 @@
     {
          "project_name":"eventmanagement",
          "image":"./image/head-1.jpeg", 
-         "description":"EVENT REGISTRATION SYSTEM WITH QR TECHNOLOGY AND CERTIFICATE GENERATOR This application helps the event organizer to make their registration for event easier and more secured. It also helps to make",
+         "description":"This application helps the event organizer to make their registration for event easier and more secured",
          "date":" November 30, 2019"
     },
     {
        "project_name":"covid19report",
        "image":"./image/1.jpg", 
-       "description":"COVID-19 is a never before encountered member of the coronavirus family. Fostering its growth in a Wuhan food market, the virus has now spread to 219 nations and counting", 
+       "description":"COVID-19 is a never before encountered member of the coronavirus family. Fostering its growth in a Wuhan", 
        "date":"August 6 , 2020"
     },
     {"project_name":"Testing 02","image":"./image/head-2.jpeg", "description":"This project is created via JSON API", "date":"January 12, 2020"},
