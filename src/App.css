@@ -137,6 +137,7 @@ main {
 
 
 
+
 .logo {
   font-weight: bold;
   text-transform: uppercase;
@@ -178,6 +179,13 @@ main {
   grid-gap: 30px;
   align-items: center;
 }
+.row-grid{
+  
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+}
+
+
 .input-label-s{
   border-style: hidden;
   background-color:#1e1e24;

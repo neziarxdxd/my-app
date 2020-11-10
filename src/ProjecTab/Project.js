@@ -25,13 +25,13 @@ function Cards({title, content,image}) {
 
             <img alt="LORD" src={image}/>
 
-            <div class="text-content">
+            <div class="text-content row-grid">
 
-                <div class="card-head">{title}</div>
-                <div>
+                <div class="card-head row-1">{title}</div>
+                <div class="row-2">
                 <p>{content.substr(0,170)}</p>
                 </div>
-                <div class="project-section"> 
+                <div class="project-section row-3"> 
                 <div class="icons-only">
 
                     <a href="/raizen" className="project-icon">    
