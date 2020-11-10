@@ -120,6 +120,11 @@ main {
   fill: #fff;
 
 }
+.project-section{
+  background-color: aqua;
+  
+  bottom:0%;
+}
 
 
 
@@ -198,6 +203,7 @@ main {
 }
 .card {
   padding: 20px;
+  background-color:blue;
 }
 
 .grid>.card img {

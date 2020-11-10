@@ -28,7 +28,7 @@ function Cards({title, content,image}) {
             <div class="text-content">
 
                 <div class="card-head">{title}</div>
-
+                
                 <p>{content}</p>
 
                 <div class="project-section"> 
