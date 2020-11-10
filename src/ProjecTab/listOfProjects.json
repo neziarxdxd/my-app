@@ -1,7 +1,7 @@
 
    [
     {
-         "project_name":"Event Management System",
+         "project_name":"eventmanagement",
          "image":"./image/head-1.jpeg", 
          "description":"EVENT REGISTRATION SYSTEM WITH QR TECHNOLOGY AND CERTIFICATE GENERATOR This application helps the event organizer to make their registration for event easier and more secured. It also helps to make",
          "date":" November 30, 2019"

@@ -120,11 +120,7 @@ main {
   fill: #fff;
 
 }
-.project-section{
-  background-color: aqua;
-  
-  bottom:0%;
-}
+
 
 
 
@@ -279,6 +275,7 @@ main {
   align-items: center;
 
 }
+
 
 .grid-3>.card-3 {
   height: 100%;

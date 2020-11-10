@@ -28,9 +28,9 @@ function Cards({title, content,image}) {
             <div class="text-content">
 
                 <div class="card-head">{title}</div>
-                
-                <p>{content}</p>
-
+                <div>
+                <p>{content.substr(0,170)}</p>
+                </div>
                 <div class="project-section"> 
                 <div class="icons-only">
 
