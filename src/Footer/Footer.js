@@ -3,10 +3,12 @@ function Footer() {
     return(
         <div className="footer">
             <div className="info footer-box">
-                About me
+                <div><b>Inspired Design</b></div>
+                <div>Inspired Design from Fireship.io</div>
+                
             </div>
             <div className="resume footer-box">
-                Download Resume here:
+                <b>Download Resume here:</b>
             </div>
             <div className="social footer-box">
             <b>Get in touch</b><div>
