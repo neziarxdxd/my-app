@@ -1,22 +1,28 @@
-import React ,{useState, useEffect}from 'react';
+import React from 'react';
 import pageProject from './pageProject.json';
 
 function PageProject({match}) {
   
+  const data = pageProject[match.params.id];
+
+  console.log("dfdfd",data)
   
     return(
         <main>
-          <FullStory/>
+
+        <FullStory title={data.role} description={data.full_description}/>  
+ 
+
         </main>
     );
 }
 
 
-function FullStory(id,title,description) {
+function FullStory({title,description}) {
   return(
     <div>
-      <div className="title-project">{title}</div>
-      <div className="id-project">{id}</div>
+      <div className="title-project"><h1>{title}</h1></div>
+    
       <div className="description">
         {description} 
 

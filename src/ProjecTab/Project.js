@@ -11,7 +11,7 @@ function Project() {
 
     return(
         <main>
-         
+            
             <div className="grid-3">             
                {cards}
             </div>
