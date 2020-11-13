@@ -12,8 +12,7 @@ function Project() {
     return(
         <main>
          
-            <div className="grid-3">
-              
+            <div className="grid-3">             
                {cards}
             </div>
         </main>
