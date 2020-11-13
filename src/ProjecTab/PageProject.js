@@ -5,7 +5,9 @@ function PageProject() {
     return(
         <main>
           <div>Title of Project</div>
-       
+          <div>
+            
+          </div>
         </main>
     );
 }
