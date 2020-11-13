@@ -5,7 +5,9 @@
          "image":"./image/head-1.jpeg", 
          "description":"This application helps the event organizer to make their registration for event easier and more secured",
          "date":" November 30, 2019"
-    },
+         
+    }
+    ,
     {
        "project_name":"covid19report",
        "image":"./image/head-1.jpeg",
