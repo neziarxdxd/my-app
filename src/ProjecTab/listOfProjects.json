@@ -14,7 +14,7 @@
        "description":"COVID-19 is a never before encountered member of the coronavirus family. Fostering its growth in a Wuhan", 
        "date":"August 6 , 2020"
     },
-    {"project_name":"Testing 02","image":"./image/head-1.jpeg", "description":"This project is created via JSON API", "date":"January 12, 2020"},
+    {"project_name":"Testing02","image":"./image/head-1.jpeg", "description":"This project is created via JSON API", "date":"January 12, 2020"},
     {"project_name":"Testing 03", "image":"./image/head-1.jpeg","description":"This project is created via JSON API", "date":"January 12, 2020"},
     {"project_name":"Testing 04","image":"./image/head-1.jpeg", "description":"This project is created via JSON API", "date":"January 12, 2020"}      
     ]
