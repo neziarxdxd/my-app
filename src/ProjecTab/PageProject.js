@@ -5,7 +5,7 @@ function PageProject({match}) {
   
   const data = pageProject[match.params.id];
 
-  console.log("dfdfd",data)
+  
   
     return(
         <main>

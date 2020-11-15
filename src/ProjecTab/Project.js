@@ -1,9 +1,11 @@
 import listOfProjects from './listOfProjects.json';
 import React from 'react';
 
+
 function Project() {
 
     const cards= listOfProjects.map((data)=>
+        
         <Cards title={data.project_name} content={data.description} image={data.image}/>
     );
    
