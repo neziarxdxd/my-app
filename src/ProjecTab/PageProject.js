@@ -23,7 +23,7 @@ function FullStory({title,description}) {
     <div>
       <div className="title-project"><h1>{title}</h1></div>
     
-      <div className="description">
+      <div className="description" style={{fontSize:"12px"}}>
         {description} 
 
       </div>
