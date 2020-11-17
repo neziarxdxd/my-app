@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from './header-1.jpeg';
+import Image from './header-1.png';
 
 function MainTab() {
   const frameworks = [
