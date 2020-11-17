@@ -2,7 +2,7 @@
    [
     {
          "project_name":"eventmanagement",
-         "image":"./image/head-1.jpeg", 
+         "image":"./image/main.png", 
          "description":"This application helps the event organizer to make their registration for event easier and more secured",
          "date":" November 30, 2019"
          
@@ -10,7 +10,7 @@
     ,
     {
        "project_name":"covid19report",
-       "image":"./image/head-1.jpeg",
+       "image":"./image/main.png",
        "description":"COVID-19 is a never before encountered member of the coronavirus family. Fostering its growth in a Wuhan", 
        "date":"August 6 , 2020"
     },
