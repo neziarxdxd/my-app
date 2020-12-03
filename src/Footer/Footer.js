@@ -8,7 +8,7 @@ function Footer() {
                 
             </div>
             <div className="resume footer-box">
-                <b>Download Resume here:</b>
+            
             </div>
             <div className="social footer-box">
             <b>Get in touch</b><div>
