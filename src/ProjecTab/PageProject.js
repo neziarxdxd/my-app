@@ -1,35 +1,28 @@
 import React from 'react';
 import pageProject from './pageProject.json';
 
-function PageProject({match}) {
-  
+function PageProject({ match }) {
+
   const data = pageProject[match.params.id];
 
-  
-  
-    return(
-        <main>
-
-        <FullStory title={data.role} description={data.full_description}/>  
- 
-
-        </main>
-    );
+  return (
+    <main>
+      <FullStory title={data.role} description={data.full_description} />
+    </main>
+  );
 }
 
 
-function FullStory({title,description}) {
-  return(
+function FullStory({ title, description }) {
+  return (
     <div>
       <div className="title-project"><h1>{title}</h1></div>
-    
-      <div className="description" style={{fontSize:"16px"}}>
-        {description} 
-
+      <div className="description" style={{ fontSize: "16px" }}>
+        {description}
       </div>
     </div>
   );
-  
+
 }
 
 
