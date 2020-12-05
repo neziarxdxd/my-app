@@ -131,12 +131,9 @@ main {
 .fa-secondary {
   color: #0697f8;
 }
-
-
-
-
-
-
+.emoji{
+  font-weight: 900;
+}
 
 .logo {
   font-weight: bold;
