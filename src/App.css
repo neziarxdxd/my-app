@@ -5,6 +5,7 @@
   --text-secondary: #ececec;
   --bg-primary: #202026;
   --bg-secondary: #16161c;
+  --accent-color: #0697f8;
   --transition-speed: 300ms;
 }
 
@@ -120,7 +121,14 @@ main {
   fill: #fff;
 
 }
-
+.project-icon{
+  text-decoration: none;
+  color:white;
+}
+.project-icon:hover{
+  text-decoration: none;
+  color:var(--accent-color);
+}
 
 
 
