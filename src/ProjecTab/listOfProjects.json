@@ -3,7 +3,7 @@
     {
          "project_name":"eventmanagement",
          "image":"./image/main.png", 
-         "description":"This application helps the event organizer to make their registration for event easier and more secured",
+         "description":"A chatbot that gives informations to help students finish their assignments on time. Just one chat away with wiki the students can have the information needed. It is powered by information from wikipedia, dictionary and also can give updates from today's happening about COVID-19.",
          "date":" November 30, 2019"
          
     }
