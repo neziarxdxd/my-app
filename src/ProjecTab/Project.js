@@ -8,11 +8,7 @@ function Project() {
        
         <Cards title={data.project_name} content={data.description} image={data.image} project_name={data.project_name}/>
    
-    );
-   
-
-
-    return(
+    );return(
         <main>
             
             <div className="grid-3">             
