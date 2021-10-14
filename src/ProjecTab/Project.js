@@ -20,16 +20,13 @@ function Project() {
 function Cards({title, content,image,project_name}) {
     return(
        
-        <div class="card-3">
-            
-            <img alt="LORD" src={image}/>
-
-            <div class="text-content row-grid">
+        <div class="card-3">    
+           <div class="text-content row-grid">
             <Link to={`page/${project_name}`}href="/raizen" className="project-icon">
                 <div class="card-head row-1">{title}</div>
                 </Link>   
                 <div class="row-2">
-                <p>{content.substr(0,170)}</p>
+                <p>{content}</p>
                 </div>
             
             </div>
