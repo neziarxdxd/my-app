@@ -56,6 +56,37 @@ main {
 
 }
 
+body {
+  
+  font-family: 'Poppins';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.footer{
+  margin-left:5rem;
+  background-color: #202026;
+  height:100px;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 1rem;  
+}
+@media only screen and (max-width: 600.05px) {
+  .footer{
+    height: 300px;
+    grid-template-columns: repeat(1,1fr);
+    padding-bottom:200px;
+    grid-gap: 1rem;  
+  }
+}
+
+
 
 .navbar-nav {
   list-style: none;
