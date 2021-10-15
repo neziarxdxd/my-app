@@ -3,6 +3,7 @@
   font-family: 'Poppins';
   --text-primary: #b6b6b6;
   --text-secondary: #ececec;
+  --text-main: #fff;
   --bg-primary: #202026;
   --bg-secondary: #16161c;
   --accent-color: #0697f8;
@@ -17,7 +18,7 @@ body {
 }
 
 body {
-  color: var(--text-secondary);
+  color: var(--text-main);
   background-color: var(--bg-secondary);
   margin: 0;
   padding: 0;
@@ -29,7 +30,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: #1e1e24;
+  background: #fff;
 }
 
 body::-webkit-scrollbar-thumb {
@@ -40,20 +41,13 @@ main {
   min-height: calc(100vh - 70px);
   margin-left: 5rem;
   padding: 1rem;
-  
-  
-
-
 }
 
-
-
-
+/** navbar-section**/
 .navbar {
   position: fixed;
   background-color: var(--bg-primary);
   transition: width 600ms ease;
-
 }
 
 body {
@@ -77,15 +71,6 @@ code {
   grid-template-columns: repeat(4,1fr);
   grid-gap: 1rem;  
 }
-@media only screen and (max-width: 600.05px) {
-  .footer{
-    height: 300px;
-    grid-template-columns: repeat(1,1fr);
-    padding-bottom:200px;
-    grid-gap: 1rem;  
-  }
-}
-
 
 
 .navbar-nav {
@@ -139,22 +124,21 @@ code {
   width: 2rem;
   min-width: 2rem;
   margin: 0 1.5rem;
-  fill: #fff;
+  fill:var(--text-main);
 
 }
 
 .project-icon svg {
 
-  height: 2rem;
   width: 2rem;
   min-width: 2rem;
   margin-right: 20px;
-  fill: #fff;
+  fill: var(--text-main);
 
 }
 .project-icon{
   text-decoration: none;
-  color:white;
+  color:var(--text-main);
 }
 .project-icon:hover{
   text-decoration: none;
@@ -319,7 +303,6 @@ code {
   grid-column-gap: 1em;
   grid-row-gap: 1em;
   align-items: center;
-
 }
 
 
@@ -508,5 +491,14 @@ border-radius: 4px;
 
   .navbar:hover .logo-text {
     left: 0px;
+  }
+}
+
+@media only screen and (max-width: 600.05px) {
+  .footer{
+    height: 300px;
+    grid-template-columns: repeat(1,1fr);
+    padding-bottom:200px;
+    grid-gap: 1rem;  
   }
 }
