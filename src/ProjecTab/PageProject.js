@@ -7,7 +7,7 @@ function PageProject({ match }) {
 
   return (
     <main>
-      <FullStory title={data.project_name} description={data.full_description} />
+      <FullStory title={data.role} description={data.full_description} />
     </main>
   );
 }
